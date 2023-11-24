@@ -134,13 +134,13 @@
             </tr>
             <tr>
                 <td>Formatação + Instalação de Drivers + Backup de Dados</td>
-                <td>R$ 100,00 a 150,00 <span class="discount">R$ 100 a 135,00 </span></td>
+                <td>R$ 100,00 a 150,00 <span class="discount">R$ 100,00 a 135,00</span></td>
             </tr>
         </table>
     </section>
 
     <section id="contato">
-        <h2>Entre em Contato Com</h2>
+        <h2>Entre em Contato</h2>
         <p>
             <strong>Guilherme</strong><br>
             Telefone: 67 991667266<br>
@@ -180,4 +180,9 @@
     <section id="blackfriday" class="promo">
         <h2>Black Friday Promoção!</h2>
         <p>Aproveite nossos descontos especiais na Black Friday!</p>
-        <p>Do dia
+        <p>Do dia 27 de novembro a 01 de dezembro de 2023</
+            <footer>
+                <p><strong>&copy; Todos os direitos reservado a Guilherme Macari Campos. 2023</colgroup></strong></p>
+            </footer>
+            
+            
