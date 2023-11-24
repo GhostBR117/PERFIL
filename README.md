@@ -179,7 +179,7 @@
 
     <section id="blackfriday" class="promo">
         <h2>Black Friday Promoção!</h2>
-        <p>Aproveite nossos descontos especiais na Black Friday!</p>
+        <p>Aproveite nossos descontos especiais na Black Friday!  </p>
         <p>Do dia 27 de novembro a 01 de dezembro de 2023</
             <footer>
                 <p><strong>&copy; Todos os direitos reservado a Guilherme Macari Campos. 2023</colgroup></strong></p>
