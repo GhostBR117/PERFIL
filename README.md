@@ -1,4 +1,3 @@
-# PERFIL
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -181,11 +180,4 @@
     <section id="blackfriday" class="promo">
         <h2>Black Friday Promoção!</h2>
         <p>Aproveite nossos descontos especiais na Black Friday!</p>
-        <p>Do dia 27 de novembro a 01 de dezembro de 2023:</
-
-        <p>&copy; 2023 Guilherme Macari Campos. Todos os direitos reservados.</p>
-    </footer>
-
-</body>
-
-</html>
+        <p>Do dia
