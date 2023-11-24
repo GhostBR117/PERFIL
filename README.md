@@ -8,12 +8,12 @@
     <title>Guilherme Macari Campos - Serviços Profissionais</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            line-height: 1.6;
             color: #333;
+            line-height: 1.6;
         }
 
         header {
@@ -41,7 +41,9 @@
             text-align: center;
         }
 
-        section#curriculo {
+        section#curriculo,
+        section#pagamento,
+        section#blackfriday {
             background-color: #fff;
             border-radius: 8px;
             padding: 20px;
@@ -72,8 +74,31 @@
             background-color: #f2f2f2;
         }
 
+        h1, h2 {
+            color: #333;
+        }
+
         p {
             margin-bottom: 1em;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .promo {
+            color: #c0392b;
+            font-weight: bold;
+        }
+
+        .discount {
+            color: #27ae60;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -89,6 +114,7 @@
         <a href="#servicos">Serviços</a>
         <a href="#precos">Preços</a>
         <a href="#contato">Contato</a>
+        <a href="#pagamento">Formas de Pagamento</a>
     </nav>
 
     <section id="servicos">
@@ -105,17 +131,17 @@
             </tr>
             <tr>
                 <td>Formatação + Backup de Dados</td>
-                <td>R$ 100,00 a 150,00</td>
+                <td>R$ 100,00 <span class="discount">R$ 90,00</span></td>
             </tr>
             <tr>
                 <td>Formatação + Instalação de Drivers + Backup de Dados</td>
-                <td>R$ 120,00 a 170,00</td>
+                <td>R$ 100,00 a 150,00 <span class="discount">R$ 100 a 135,00 </span></td>
             </tr>
         </table>
     </section>
 
     <section id="contato">
-        <h2>Entre em Contato</h2>
+        <h2>Entre em Contato Com</h2>
         <p>
             <strong>Guilherme</strong><br>
             Telefone: 67 991667266<br>
@@ -152,7 +178,11 @@
         </p>
     </section>
 
-    <footer>
+    <section id="blackfriday" class="promo">
+        <h2>Black Friday Promoção!</h2>
+        <p>Aproveite nossos descontos especiais na Black Friday!</p>
+        <p>Do dia 27 de novembro a 01 de dezembro de 2023:</
+
         <p>&copy; 2023 Guilherme Macari Campos. Todos os direitos reservados.</p>
     </footer>
 
