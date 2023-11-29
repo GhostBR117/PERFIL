@@ -50,6 +50,39 @@
             text-align: left;
         }
 
+        section#pagamento {
+            background-color: #3498db; /* Azul mais escuro para o fundo */
+            color: #fff; /* Texto em branco para contrastar */
+            padding: 20px; /* Espaçamento interno */
+            border-radius: 8px; /* Cantos arredondados */
+            margin: 20px 0; /* Margem ao redor */
+        }
+
+        section#pagamento h2 {
+            color: #fff; /* Cor do título em branco */
+            border-bottom: 2px solid #fff; /* Linha de separação branca abaixo do título */
+            padding-bottom: 8px; /* Espaçamento abaixo do título */
+        }
+
+        section#pagamento p {
+            font-size: 1.2em; /* Tamanho do texto */
+        }
+
+        section#pagamento ul {
+            list-style-type: disc; /* Tipo de marcador para a lista */
+            margin-top: 10px; /* Margem acima da lista */
+        }
+
+        section#pagamento ul li {
+            font-size: 1.1em; /* Tamanho do texto da lista */
+            margin-bottom: 8px; /* Margem abaixo de cada item da lista */
+        }
+
+        section#pagamento ul li.discount {
+            color: #e74c3c; /* Cor destacada para o desconto (vermelho) */
+            font-weight: bold;
+        }
+
         footer {
             background-color: #333;
             color: #fff;
@@ -130,13 +163,23 @@
             </tr>
             <tr>
                 <td>Formatação + Backup de Dados</td>
-                <td>R$ 100,00 <span class="discount">R$ 90,00</span></td>
+                <td>R$ 100,00 <span class="discount">(R$ 90,00)</span></td>
             </tr>
             <tr>
                 <td>Formatação + Instalação de Drivers + Backup de Dados</td>
-                <td>R$ 100,00 a 150,00 <span class="discount">R$ 100,00 a 135,00</span></td>
+                <td>R$ 100,00 a 150,00 <span class="discount">(R$ 100,00 a 135,00)</span></td>
             </tr>
         </table>
+    </section>
+    
+    <section id="pagamento">
+        <h2>Formas de Pagamento</h2>
+        <p>Aceitamos as seguintes formas de pagamento:</p>
+        <ul>
+            <li>Dinheiro</li>
+            <li>Pix</li>
+            <li class="discount">Cartão de Crédito (apenas 5% de desconto)</li>
+        </ul>
     </section>
 
     <section id="contato">
@@ -150,39 +193,34 @@
 
     <section id="curriculo">
         <h2>Currículo</h2>
-        <p>
-            <strong>Idade:</strong> 20 anos<br>
-            <strong>Nome:</strong> Guilherme Macari Campos<br>
-            <strong>Cidade:</strong> Dourados<br>
-            <br>
-            Guilherme Macari Campos participou do curso de qualificação profissional técnica em Montador e Reparador de Computadores, com carga horária de 340 horas, no período de 28 de fevereiro de 2023 a 1 de julho de 2023.
-            Ponta Porã/MS, 1 de julho de 2023.
-            Izidro dos Santos de Lima Júnior
-            Diretor-Geral
-            Portaria Nº 1.427 de 12 de dezembro de 2019
-            Para comprovar a autenticidade do certificado acesse a página - <a href="http://verifica.ifms.edu.br/edu/c917198b3d4dc61e" target="_blank">http://verifica.ifms.edu.br/edu/c917198b3d4dc61e</a>
-            <br>
-            <strong>Conteúdo do Curso:</strong>
-            <ul>
-                <li>INTRODUÇÃO E AMBIENTAÇÃO EM EDUCAÇÃO A DISTÂNCIA – 20h</li>
-                <li>ORGANIZAÇÃO E MANUTENÇÃO DE COMPUTADORES I – 40h</li>
-                <li>MATEMÁTICA APLICADA – 40h</li>
-                <li>INFORMÁTICA APLICADA – 40h</li>
-                <li>INGLÊS INSTRUMENTAL – 40h</li>
-                <li>ORGANIZAÇÃO E MANUTENÇÃO DE COMPUTADORES II – 40h</li>
-                <li>SISTEMAS OPERACIONAIS – 40h</li>
-                <li>LÍNGUA PORTUGUESA INSTRUMENTAL – 40h</li>
-                <li>ORGANIZAÇÃO E MANUTENÇÃO DE COMPUTADORES III – 40h</li>
-            </ul>
-        </p>
+        <p>Certificamos que Guilherme Macari Campos participou do curso de qualificação profissional técnica em Montador e Reparador de Computadores, com carga horária de 340 horas, no período de 28 de fevereiro de 2023 a 1 de julho de 2023.</p>
+        <p>Ponta Porã/MS, 1 de julho de 2023.</p>
+        <p>Izidro dos Santos de Lima Júnior</p>
+        <p>Diretor-Geral</p>
+        <p>Portaria Nº 1.427 de 12 de dezembro de 2019</p>
+        <p>Para comprovar a autenticidade do certificado acesse a página - <a href="http://verifica.ifms.edu.br/edu/c917198b3d4dc61e" target="_blank">http://verifica.ifms.edu.br/edu/c917198b3d4dc61e</a></p>
+        <p>Conteúdo:</p>
+        <ul>
+            <li>INTRODUÇÃO E AMBIENTAÇÃO EM EDUCAÇÃO A DISTÂNCIA – 20h</li>
+            <li>ORGANIZAÇÃO E MANUTENÇÃO DE COMPUTADORES I – 40h</li>
+            <li>MATEMÁTICA APLICADA – 40h</li>
+            <li>INFORMÁTICA APLICADA – 40h</li>
+            <li>INGLÊS INSTRUMENTAL – 40h</li>
+            <li>ORGANIZAÇÃO E MANUTENÇÃO DE COMPUTADORES II – 40h</li>
+            <li>SISTEMAS OPERACIONAIS – 40h</li>
+            <li>LÍNGUA PORTUGUESA INSTRUMENTAL – 40h</li>
+            <li>ORGANIZAÇÃO E MANUTENÇÃO DE COMPUTADORES III – 40h</li>
+        </ul>
+        <p>*certificação parcial do curso Técnico Subsequente em Manutenção e Suporte em Informática, referente ao 1º período do curso.</p>
     </section>
-
     <section id="blackfriday" class="promo">
         <h2>Black Friday Promoção!</h2>
-        <p>Aproveite nossos descontos especiais na Black Friday!  </p>
-        <p>Do dia 28 de novembro a 02 de dezembro de 2023</
-            <footer>
-                <p><strong>&copy; Todos os direitos reservado a Guilherme Macari Campos. 2023</colgroup></strong></p>
-            </footer>
-            
-            
+        <p>Aproveite nossos descontos especiais na Black Friday!</p>
+        <p>Do dia 28 de novembro a 02 de dezembro de 2023</p>
+    </section>
+
+    <footer>
+        <p><strong>&copy;2023 Todos os direitos reservados a Guilherme Macari Campos. </strong></p>
+    </footer>
+
+</body>
