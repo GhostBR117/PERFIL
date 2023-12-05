@@ -163,11 +163,11 @@
             </tr>
             <tr>
                 <td>Formatação + Backup de Dados</td>
-                <td>R$ 100,00 <span class="discount">(R$ 90,00)</span></td>
+                <td>R$ 100,00 </td>
             </tr>
             <tr>
                 <td>Formatação + Instalação de Drivers + Backup de Dados</td>
-                <td>R$ 100,00 a 150,00 <span class="discount">(R$ 100,00 a 135,00)</span></td>
+                <td>R$ 100,00 a 150,00 </td>
             </tr>
         </table>
     </section>
@@ -178,7 +178,7 @@
         <ul>
             <li>Dinheiro</li>
             <li>Pix</li>
-            <li class="discount">Cartão de Crédito (apenas 5% de desconto)</li>
+            <li class="discount">Cartão de Crédito </li>
         </ul>
     </section>
 
@@ -212,12 +212,7 @@
             <li>ORGANIZAÇÃO E MANUTENÇÃO DE COMPUTADORES III – 40h</li>
         </ul>
         <p>*certificação parcial do curso Técnico Subsequente em Manutenção e Suporte em Informática, referente ao 1º período do curso.</p>
-    </section>
-    <section id="blackfriday" class="promo">
-        <h2>Black Friday Promoção!</h2>
-        <p>Aproveite nossos descontos especiais na Black Friday!</p>
-        <p>Do dia 28 de novembro a 02 de dezembro de 2023</p>
-    </section>
+    
 
     <footer>
         <p><strong>&copy;2023 Todos os direitos reservados a Guilherme Macari Campos. </strong></p>
